@@ -123,7 +123,7 @@ function initializeFields(){
         tableStorage[`column-${index}`] = {type:type ,description:input.dataset.description, option:optionsArray}; 
     })
     if(Object.keys(tableStorage) < 1){
-        errorField.textContent = "You can not submit witout any fields";
+        errorField.textContent = "You can not submit without any fields";
         errorField.classList.toggle('error-field-shown');
         setTimeout(()=>{
             errorField.classList.toggle('error-field-shown');
