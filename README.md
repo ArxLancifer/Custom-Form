@@ -9,3 +9,5 @@
 ### Libraries used
 * Bootstrap
 * Tabulator
+
+>To fully operate you will need a server or you can open it in VS code live server due all data is stored in local storage and domain have to remain same for every .html file is served.
